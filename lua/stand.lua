@@ -45,7 +45,7 @@ function M.setup(options)
 
 		timer:stop()
 		timer:again()
-	end, { "Stand, dismissing any notifications and restarting the timer." })
+	end, { desc = "Stand, dismissing any notifications and restarting the timer." })
 
 	vim.api.nvim_create_user_command("StandEvery", function(opts)
 		options.minute_interval = tonumber(opts.args) * 60 * 1000
