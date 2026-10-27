@@ -1,3 +1,6 @@
+> [!NOTE]
+> This repository has been archived. I recommend a system-specific solution instead of a Neovim plugin for this specific behaviour :)
+
 # stand.nvim
 
 > Time to stand reminders
